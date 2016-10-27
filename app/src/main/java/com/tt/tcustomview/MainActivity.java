@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private List<String> titles;
     {
         titles = new ArrayList<>();
-        titles.add("View1");
-        titles.add("View2");
+        titles.add("Welcome");
+        titles.add("RandomNumber");
         titles.add("View3");
         titles.add("View4");
         titles.add("View5");
