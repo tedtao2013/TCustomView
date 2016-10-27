@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RandomNumberView">
+        <attr name="mlen" format="integer"/>
+        <attr name="mTextColor" format="color" />
+        <attr name="mBackground" format="color" />
+        <attr name="mPadding" format="dimension" />
+        <attr name="mTextSize" format="dimension" />
+    </declare-styleable>
+</resources>
