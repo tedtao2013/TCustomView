@@ -106,10 +106,10 @@ public class RandomNumberView extends View{
 
     private void setNumber() {
         final int iSleep = 10;
-        for (int i = 0; i < 15; i++) {
-            new Thread(){
-                @Override
-                public void run() {
+        new Thread() {
+            @Override
+            public void run() {
+                for (int i = 0; i < 15; i++) {
                     try {
                         Thread.sleep(iSleep);
                         mContent = getRandomNumber(mLen);
@@ -118,7 +118,7 @@ public class RandomNumberView extends View{
                         e.printStackTrace();
                     }
                 }
-            }.start();
-        }
+            }
+        }.start();
     }
 }

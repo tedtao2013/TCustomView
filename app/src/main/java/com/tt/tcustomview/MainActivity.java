@@ -42,6 +42,7 @@ public class MainActivity extends AppCompatActivity {
         titles.add("View20");
         titles.add("View21");
     }
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +53,6 @@ public class MainActivity extends AppCompatActivity {
     private void init() {
         mRecPages = (RecyclerView) findViewById(R.id.rec_pages);
         mRecPages.setLayoutManager(new LinearLayoutManager(this));
-
         mRecPages.setAdapter(new MyAdapter(this, titles));
     }
 
