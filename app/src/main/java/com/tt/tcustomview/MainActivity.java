@@ -22,8 +22,8 @@ public class MainActivity extends AppCompatActivity {
         titles = new ArrayList<>();
         titles.add("Welcome");
         titles.add("RandomNumber");
+        titles.add("GlideDemo");
         titles.add("default");
-        titles.add("View4");
         titles.add("View5");
         titles.add("View6");
         titles.add("View7");

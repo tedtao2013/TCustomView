@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.tt.tcustomview.fragment.BuildingFragment;
+import com.tt.tcustomview.fragment.GlideDemoFragment;
 import com.tt.tcustomview.fragment.RandomNumberFragment;
 import com.tt.tcustomview.fragment.WelComeFragment;
 import com.tt.tcustomview.utils.PageName;
@@ -33,6 +34,9 @@ public class CustomViewActivity extends AppCompatActivity {
                 break;
             case PageName.RANDOM_NUMBER:
                 fragment = new RandomNumberFragment();
+                break;
+            case PageName.GLIDE_DEMO:
+                fragment = new GlideDemoFragment();
                 break;
             default:
                 fragment = new BuildingFragment();

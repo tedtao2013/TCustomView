@@ -11,4 +11,5 @@ package com.tt.tcustomview.utils;
 public class PageName {
     public static final int WELCOME = 0;
     public static final int RANDOM_NUMBER = 1;
+    public static final int GLIDE_DEMO = 2;
 }
