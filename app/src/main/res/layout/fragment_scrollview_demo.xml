@@ -91,7 +91,7 @@
                 android:text="正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正"
 
                 android:textColor="#666666"
-                android:textSize="30sp"></TextView>
+                android:textSize="30sp" />
         </LinearLayout>
     </com.tt.tcustomview.view.CustomScrollview>
 

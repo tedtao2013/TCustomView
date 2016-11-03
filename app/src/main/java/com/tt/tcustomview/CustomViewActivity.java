@@ -11,6 +11,7 @@ import com.tt.tcustomview.fragment.BuildingFragment;
 import com.tt.tcustomview.fragment.CustomScrollViewFragment;
 import com.tt.tcustomview.fragment.GlideDemoFragment;
 import com.tt.tcustomview.fragment.RandomNumberFragment;
+import com.tt.tcustomview.fragment.RightSlideClosedFragment;
 import com.tt.tcustomview.fragment.WelComeFragment;
 import com.tt.tcustomview.utils.PageName;
 
@@ -41,6 +42,9 @@ public class CustomViewActivity extends AppCompatActivity {
                 break;
             case PageName.CUSTOM_SCROLLVIEW_DEMO:
                 fragment = new CustomScrollViewFragment();
+                break;
+            case PageName.RightSlideClosedView:
+                fragment = new RightSlideClosedFragment();
                 break;
             default:
                 fragment = new BuildingFragment();

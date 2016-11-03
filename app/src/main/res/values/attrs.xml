@@ -7,4 +7,11 @@
         <attr name="mPadding" format="dimension" />
         <attr name="mTextSize" format="dimension" />
     </declare-styleable>
+
+    <declare-styleable name="RightSlideClosedView">
+        <attr name="mMinXDistance" format="integer" />
+        <attr name="mMinYDistance" format="integer" />
+        <attr name="mTouchTime" format="integer" />
+        <attr name="mArc" format="integer" />
+    </declare-styleable>
 </resources>

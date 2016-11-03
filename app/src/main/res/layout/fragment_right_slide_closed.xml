@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.tt.tcustomview.view.RightSlideClosedView
+    android:id="@+id/rscv_test"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gsc="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    gsc:mArc="30"
+    gsc:mMinXDistance="100"
+    gsc:mMinYDistance="100"
+    gsc:mTouchTime="1000"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="5dip"
+            android:background="@color/colorPrimary" />
+
+        <ScrollView
+            android:id="@+id/show_cont_ScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/GhostWhite"
+            android:fadingEdge="none"
+            android:scrollbars="vertical">
+
+            <LinearLayout
+                android:id="@+id/show_cont_LinearLayout"
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#F7FAFD" />
+
+                <TextView
+                    android:id="@+id/titleview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:background="#ffffff"
+                    android:gravity="left"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:paddingTop="13dp"
+                    android:textColor="#494949"
+                    android:textSize="18sp" />
+
+                <LinearLayout
+                    android:id="@+id/time_layout"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingBottom="10dip"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="13dp"
+                    android:paddingTop="10dip">
+
+                    <TextView
+                        android:id="@+id/media_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingRight="20dp"
+                        android:textColor="#A6A6A6"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/date_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#A6A6A6"
+                        android:textSize="13sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1px"
+                    android:background="#C7DAEF" />
+
+                <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingMultiplier="1.5"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="13dp"
+                    android:paddingRight="10dp"
+                    android:paddingTop="10dp"
+                    android:text="正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正文正"
+                    android:textColor="#666666"
+                    android:textSize="30sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</com.tt.tcustomview.view.RightSlideClosedView>
