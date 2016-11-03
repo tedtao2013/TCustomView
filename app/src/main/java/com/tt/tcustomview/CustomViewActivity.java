@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
 import com.tt.tcustomview.fragment.BuildingFragment;
+import com.tt.tcustomview.fragment.CustomScrollViewFragment;
 import com.tt.tcustomview.fragment.GlideDemoFragment;
 import com.tt.tcustomview.fragment.RandomNumberFragment;
 import com.tt.tcustomview.fragment.WelComeFragment;
@@ -37,6 +38,9 @@ public class CustomViewActivity extends AppCompatActivity {
                 break;
             case PageName.GLIDE_DEMO:
                 fragment = new GlideDemoFragment();
+                break;
+            case PageName.CUSTOM_SCROLLVIEW_DEMO:
+                fragment = new CustomScrollViewFragment();
                 break;
             default:
                 fragment = new BuildingFragment();
