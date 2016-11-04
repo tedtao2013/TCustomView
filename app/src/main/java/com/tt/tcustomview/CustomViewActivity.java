@@ -9,6 +9,7 @@ import android.os.Bundle;
 
 import com.tt.tcustomview.fragment.BuildingFragment;
 import com.tt.tcustomview.fragment.CustomScrollViewFragment;
+import com.tt.tcustomview.fragment.FingerBallFragment;
 import com.tt.tcustomview.fragment.GlideDemoFragment;
 import com.tt.tcustomview.fragment.RandomNumberFragment;
 import com.tt.tcustomview.fragment.RightSlideClosedFragment;
@@ -45,6 +46,9 @@ public class CustomViewActivity extends AppCompatActivity {
                 break;
             case PageName.RightSlideClosedView:
                 fragment = new RightSlideClosedFragment();
+                break;
+            case PageName.FingerBallView:
+                fragment = new FingerBallFragment();
                 break;
             default:
                 fragment = new BuildingFragment();

@@ -96,11 +96,10 @@ public class RightSlideClosedView extends FrameLayout{
         if (isEvent) {
             if( l != null) {
                 l.rightSlide();
+                return true;
             }
-            return true;
-        }else {
-            return super.dispatchTouchEvent(ev);
         }
+        return super.dispatchTouchEvent(ev);
     }
 
     public interface RightSlideListener {

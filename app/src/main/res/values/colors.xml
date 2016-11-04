@@ -4,4 +4,5 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="GhostWhite">#F8F8FF</color><!-- 幽灵的白色-->
+    <color name="DarkVoilet">#9400D3</color><!-- 深紫罗兰色-->
 </resources>

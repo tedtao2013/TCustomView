@@ -25,8 +25,8 @@ public class MainActivity extends AppCompatActivity {
         titles.add("GlideDemo");
         titles.add("CustomScrollView");
         titles.add("RightSlideClosedView");
+        titles.add("FingerBallView");
         titles.add("default");
-        titles.add("View7");
         titles.add("View8");
         titles.add("View9");
         titles.add("View10");
