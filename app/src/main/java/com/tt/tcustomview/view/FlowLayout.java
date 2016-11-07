@@ -19,8 +19,6 @@ public class FlowLayout extends ViewGroup {
 
     /**
      * the three constructor
-     *
-     * @param context
      */
     public FlowLayout(Context context) {
         this(context, null);

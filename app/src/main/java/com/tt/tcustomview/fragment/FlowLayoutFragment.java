@@ -7,6 +7,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.tt.tcustomview.R;
+
 /**
  * FileName:
  * com.tt.tcustomview.fragment.FlowLayoutFragment.java
@@ -18,6 +20,6 @@ public class FlowLayoutFragment extends Fragment{
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return super.onCreateView(inflater, container, savedInstanceState);
+        return inflater.inflate(R.layout.fragment_flow_layout, container, false);
     }
 }

@@ -15,4 +15,5 @@ public class PageName {
     public static final int CUSTOM_SCROLLVIEW_DEMO = 3;
     public static final int RightSlideClosedView = 4;
     public static final int FingerBallView = 5;
+    public static final int FlowLayoutView = 6;
 }
